@@ -1,0 +1,19 @@
+{
+  "name": "trahison",
+  "version": "1.0.0",
+  "description": "Trahison bot for La Ménagerie ++ Discord server",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lily Wonhalf <lilywonhalf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@elian-wonhalf/pretty-logger": "^1.0.1",
+    "caller-id": "^0.1.0",
+    "configstore": "^5.0.0",
+    "discord.js": "^11.5.1",
+    "got": "^9.6.0",
+    "then-request": "^6.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "token": "",
+    "prefix": "!",
+    "guild": "",
+    "admin": "",
+    "channels": {
+        "general": "",
+        "vocalText": "",
+        "bot": ""
+    }
+}
