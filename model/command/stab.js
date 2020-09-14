@@ -12,7 +12,7 @@ module.exports = {
             await message.delete();
 
             const stabber = search.foundMembers[0];
-            const stabbees = Guild.discordGuild.members.random(3);
+            const stabbees = Guild.discordGuild.members.filter(member => !member.user.bot).random(3);
             let stabbee = stabbees.shift();
 
             while ([stabber.id, message.author.id].includes(stabbee.id) && stabbees.length > 0) {

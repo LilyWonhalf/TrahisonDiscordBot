@@ -12,8 +12,4 @@ module.exports = async () => {
     Logger.info('Guilds synced. Serving in ' + Guild.discordGuild.name);
 
     Logger.info('--------');
-
-    if (process.argv[3] === '--reboot') {
-        Guild.botChannel.send('Je suis de retour :) !');
-    }
 };
